@@ -22,9 +22,11 @@ main {
         margin-bottom: 1.5rem;
     }
 
-    & .h1{
-        font: 600 1.5rem/1.25 var(--font-family);
-        margin-bottom: .5rem;
+    & h1{       
+        font-family: var(--font-family);
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1.25;
     }
 }
 
@@ -40,13 +42,14 @@ aside {
         }
     }
 
-    & .h2{
-        font: 600 2.5rem/1.25 var(--font-family);
-        margin-bottom: .5rem;
+    & h2{       
+        font-family: var(--font-family);
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1.25;
         & span {
             color: var(--text-highlight);
         }
     }
     
 }
-/*conteúdo ao aside e iniciando o main\*
